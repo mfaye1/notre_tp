@@ -1,0 +1,94 @@
+
+/*----------------------------le header-------------------------------------------------*/
+body{
+    background-image:url("http://cdn.pcwallart.com/images/seychelles-wallpaper-1.jpg");
+
+}
+
+#wrapper{
+    background-color: #90c1ed;
+    margin-right: 15%;
+    margin-left: 15%;
+    min-width: 65%;
+}
+
+#logo img{
+    width :120px;
+    margin-left: 15px;
+    margin-top: 15px;
+    float:left;
+
+}
+#logo{
+    margin: 0;
+}
+
+
+#header{
+    position: relative;
+    width: 100%;
+    min-width: 65%;
+    height: 78px;
+    background: grey;
+
+}
+#menu{
+
+    margin-left: 50px;
+    list-style-type: none;
+}
+#menu li
+{
+    margin-top: 4%;
+    cursor: pointer;
+    height: 40px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+#menu li a
+{
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+
+}
+
+#menu li:hover{
+    border-bottom: solid 3px #4ecaed;
+
+}
+
+#menu li a:hover{
+    color:#4ecaed;
+}
+/*---------------------------le footer--------------------------------------------------------------------*/
+
+footer{
+    position: relative;
+    width: 100%;
+    min-width: 65%;
+    background: grey;
+    display: inline-block;
+}
+.facebook{
+    float: right;
+    display: inline-block;
+}
+.copyright{
+    display: inline-block;
+    float: left;
+}
+
+
+
+
+
+/*------------------------------------------le corp---------------------------------------------------------*/
+#promo{
+    display: table-cell;
+}
+
+
+
