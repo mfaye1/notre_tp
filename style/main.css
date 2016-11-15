@@ -6,7 +6,7 @@ body{
 }
 
 #wrapper{
-    background-color: #90c1ed;
+    background-color: whitesmoke;
     margin-right: 15%;
     margin-left: 15%;
     min-width: 65%;
@@ -63,12 +63,16 @@ body{
 #menu li a:hover{
     color:#4ecaed;
 }
+#slider{
+    width: 100%;
+    height: 300px;
+}
 /*---------------------------le footer--------------------------------------------------------------------*/
 
 footer{
     position: relative;
     width: 100%;
-    min-width: 65%;
+    min-width: 70%;
     background: grey;
     display: inline-block;
 }
@@ -87,8 +91,71 @@ footer{
 
 /*------------------------------------------le corp---------------------------------------------------------*/
 #promo{
-    display: table-cell;
+    width: 80%;
+    min-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
+#promo li{
+    display: inline-block;
+    margin-left:30px ;
+    width: 250px;
+    height: 377px;
+    text-align: center;
+    border:solid 2px darkgray;
+    border-radius: 10px;
+}
+.para{
+    width:200px;
+    display: inline-block;
+}
+.prix{
+    width:70px;
+    display: inline-block;
+}
+.rond{
+    margin-top: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rond li{
+    display: inline-block;
+    margin-left:30px ;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    border:solid 2px darkgray;
+    border-radius: 10px;
+}
+.para{
+    margin-top: 25%;
+    width:200px;
+    display: inline-block;
+}
+.prix{
+    width:70px;
 
-
-
+    display: inline-block;
+}
+.button{
+    margin-top: 20px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    text-align: center;
+    background: gray;
+    color: white;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.intro{
+    width: 80%;
+    min-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}

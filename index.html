@@ -8,54 +8,102 @@
 </head>
 <body>
 <div id="wrapper">
-            <div id="header">
-                <div id="logo">
-                    <img src="images/logo.jpg" alt="logo agence voyage">
-                </div>
-                <ul id="menu">
-                    <li><a href="#">Accueil</a></li><!--
-                 --><li><a href="#">Catalogue</a></li><!--
-                 --><li><a href="#">Réservation</a></li><!--
-                 --><li><a href="#">Contact</a></li>
-                </ul>
-            </div>
+    <div id="header">
+        <div id="logo">
+            <img src="images/logo.jpg" alt="logo agence voyage">
+        </div>
+        <ul id="menu">
+            <li><a href="#">Accueil</a></li><!--
+                --><li><a href="#">Catalogue</a></li><!--
+                --><li><a href="#">Réservation</a></li><!--
+                --><li><a href="#">Contact</a></li>
+        </ul>
+    </div><!--
+ --><div id="content">
+
+        <img src="images/photo0.jpg" id="slider" />
+        <script type="text/javascript">
+            var images=["images/photo0.jpg","images/photo1.jpg","images/canada.png","images/seychelles-guide.jpg","images/photo4.jpg","images/slide.jpg"];
+            var i=0;
+            setInterval(function () {
+                document.getElementById('slider').src=images[i];
+                i++;
+                if (i==6) i=0;
+
+            },1500)
+        </script>
 
 
-<div>
-    <ul id="promo">
-        <li>
-            <h2> SEYCHELLES </h2>
-            <img class="ville" src="images/essai.jpg" alt="logo agence voyage">
-            <div>
-                <p class="para"></p>
-                <img class="prix" src="" alt="logo agence voyage">
+    </div>
 
-            </div>
-            <div class="button"> Detail </div>
 
-        </li>
-        <li> <h2> LES DUNES A TUNIS (STAR WARS)</h2>
-            <img class="ville" src="images/essai.jpg" alt="logo agence voyage">
-            <div>
-                <p class="para"></p>
-                <img class="prix" src="" alt="logo agence voyage">
+    <h1></h1>
+    <div>
+        <p class="intro">
+            Vous cherchez un week-end relaxant ? ,un aventure ou un séminaire d'entreprise et des activités originales toute l'année, confiez-nous votre projet, nous irons ensemble jusqu'à sa réalisation. Et partout dans le monde​​
+        </p>
+            <ul id="promo">
+                <li>
+                    <h2> SEYCHELLES </h2>
+                    <img class="ville" src="images/essai.jpg" alt="logo agence voyage">
+                    <div>
+                        <p class="para">sa vous tente de faire un petit tour en amoureux ?</p>
+                        <img class="prix" src="images/price.png" alt="logo agence voyage">
+                    </div>
+                    <div class="button"> Detail </div>
+                </li>
+                <li> <h2> Bahamas</h2>
+                    <div>
+                        <img class="ville" src="images/bahamas.jpg" alt="logo agence voyage">
+                    <p class="para">sa vous tente de faire un petit tour en amoureux ?</p>
+                        <img class="prix" src="images/price.png" alt="logo agence voyage">
+                    </div>
+                    <div class="button"> Detail </div>
+                </li>
+                <li>
+                    <h2>Brazil</h2>
+                    <img class="ville" src="images/brazilia.jpg" alt="logo agence voyage">
+                    <div>
+                        <p class="para">sa vous tente de faire un petit tour en amoureux ?</p>
+                        <img class="prix" src="images/price.png" alt="logo agence voyage">
+                    </div>
+                    <div class="button"> Detail </div>
+                </li>
 
-            </div>
-            <div class="button"> Detail </div>
-        </li>
-        <li>
-            <h2> PARIX VILLE DES MONUMONTS </h2>
-            <img class="ville" src="images/essai.jpg" alt="logo agence voyage">
-            <div>
-                <p class="para"></p>
-                <img class="prix" src="" alt="logo agence voyage">
-            </div>
-            <div class="button"> Detail </div>
-        </li>
+            </ul>
+            <ul class="rond">
+                <li>
+                    <h2> Europe </h2>
+                    <img class="ville" src="images/tourisme.jpg" alt="logo agence voyage">
+                    <div>
+                        <p class="para">sa vous tente de faire un petit tour en amoureux ?</p>
+                        <img class="prix" src="images/price.png" alt="logo agence voyage">
+                    </div>
+                    <div class="button"> Detail </div>
+                </li>
 
-    </ul>
+                <li>
+                    <h2> Hiver au canada </h2>
+                    <img class="ville" src="images/neige.jpg" alt="logo agence voyage">
+                    <div>
+                        <p class="para">sa vous tente de faire un petit tour en amoureux ?</p>
+                        <img class="prix" src="images/price.png" alt="logo agence voyage">
+                    </div>
+                    <div class="button"> Detail </div>
+                </li>
 
-</div>
+                <li>
+                    <h2> Automne en Amerique </h2>
+                    <img class="ville" src="images/automne_canada.jpg" alt="logo agence voyage">
+                    <div>
+                        <p class="para">sa vous tente de faire un petit tour en amoureux ?</p>
+                        <img class="prix" src="images/price.png" alt="logo agence voyage">
+                    </div>
+                    <div class="button"> Detail </div>
+                </li>
+            </ul>
+    </div>
+    <h2></h2>
 <footer>
     <div>
         <p class="copyright">Copyright © 2016  Mamadou | Younes </p>
