@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>catalogue</title>
+    <link rel="stylesheet" href="style/main.css"/>
+</head>
+<body>
+<div id="wrapper">
+            <div id="header">
+                <div id="logo">
+                    <img src="images/logo.jpg" alt="logo agence voyage">
+                </div>
+                <ul id="menu">
+                        <li><a href="index.html">Accueil</a></li><!--
+                    --><li><a href="la_page_catalogue.html">Catalogue</a></li><!--
+                    --><li><a href="formulaire.html">Réservation</a></li><!--
+                    --><li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="menu_cata">
+                <button><a href="#"> Vacances Soleil</a></button>
+                <button><a href="#"> Croisiere</a></button>
+                <button><a href="#"> vacances d'hiver</a></button>
+                <button><a href="#"> Romantique</a></button>
+                <button><a href="#"> Dans la nature</a></button>
+            </div>
+    <div id="content">
+
+        <img src="images/hiver/slide_hiver/2.jpg" id="slider" />
+        <script type="text/javascript">
+            var images=["images/hiver/slide_hiver/1.jpg","images/hiver/slide_hiver/3.jpg","images/hiver/slide_hiver/4.jpg","images/hiver/slide_hiver/5.jpg","images/hiver/slide_hiver/6.jpg","images/hiver/slide_hiver/7.jpg"];
+            var i=0;
+            setInterval(function () {
+                document.getElementById('slider').src=images[i];
+                i++;
+                if (i==6) i=0;
+
+            },2000)
+        </script>
+    </div>
+    <p class="intro">
+        l'aventure commence maintenant accrochez vous et choisissez la destination de votre choix
+    </p>
+    <div>
+    <ul id="promo">
+        <li>
+            <h2> SEYCHELLES </h2>
+            <img class="ville" src="images/hiver/2.jpg" alt="logo agence voyage">
+            <div>
+                <p class="para">sa vous tente de faire un petit tour en amoureux ?</p>
+            </div>
+            <button class="button"><a href="formulaire.html"> RESERVER</a> </button>
+        </li>
+        <li> <h2> Bahamas</h2>
+            <div>
+                <img class="ville" src="images/hiver/3.jpg" alt="logo agence voyage">
+                <p class="para">sa vous tente de faire un petit tour en amoureux ?</p>
+
+            </div>
+            <button class="button"><a href="formulaire.html"> RESERVER</a> </button>
+        </li>
+        <li>
+            <h2>Brazil</h2>
+            <img class="ville" src="images/hiver/4.jpg" alt="logo agence voyage">
+            <div>
+                <p class="para">sa vous tente de faire un petit tour en amoureux ?</p>
+
+            </div>
+            <button class="button"><a href="formulaire.html"> RESERVER</a> </button>
+        </li>
+
+    </ul>
+    </div>
+
+
+
+
+
+
+
+        <footer>
+                <div>
+                    <p class="copyright">Copyright © 2016  Mamadou | Younes </p>
+                </div>
+                <div class="facebook">
+                    <a href="https://www.facebook.com/" target="_blank"><img id="facebook" src="images/Logo-facebook-footer.png" alt="facebook"></a><!--
+                 --><a href="https://twitter.com/" target="_blank"><img id="twitter" src="images/twitter-ios-logo%20copy.png" alt="twitter"></a><!--
+                 --><a href="https://linked.com/" target="_blank"><img id="linked" src="images/linkeed.png" alt="google"></a>
+
+                </div>
+            </footer>
+</div>
+<script src="script/main_catalogue.js"></script>
+</body>
+</html>

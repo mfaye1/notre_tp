@@ -20,7 +20,7 @@ body{
 
 }
 #logo{
-    margin: 0;
+    margin-top: 0;
 }
 
 
@@ -56,7 +56,7 @@ body{
 }
 
 #menu li:hover{
-    border-bottom: solid 3px #4ecaed;
+    border-top: solid 3px #4ecaed;
 
 }
 
@@ -141,16 +141,20 @@ footer{
 }
 .button{
     margin-top: 20px;
-    width:80%;
+    width: 100px;;
     margin-left: auto;
     margin-right: auto;
     height: 30px;
     text-align: center;
     background: gray;
-    color: white;
-    padding-top: 10px;
     cursor: pointer;
 }
+.button a{
+    display: block;
+    color: deepskyblue;
+    text-decoration: none;
+}
+
 .intro{
     width: 80%;
     min-width: 60%;
@@ -158,4 +162,39 @@ footer{
     margin-right: auto;
     margin-top: 5%;
     margin-bottom: 10%;
+}
+
+/*------------------------------------------------------- la page catalogue------------------------------------------------------------*/
+
+#menu_cata{
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+#menu_cata button
+{
+    background:linear-gradient(whitesmoke,dodgerblue);
+    border-radius: 6px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    cursor: pointer;
+    height: 40px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+#menu_cata button a{
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    transition: background 1s;
+}
+#menu_cata button a:hover{
+    background: transparent;
+    transition: background 0s;
+    color: aqua;
+}
+#menu button:hover{
+    padding: 15px;
 }
