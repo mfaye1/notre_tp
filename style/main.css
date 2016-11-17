@@ -170,8 +170,9 @@ footer{
     margin-left: auto;
     margin-right: auto;
     list-style-type: none;
+
 }
-#menu_cata button
+#menu_cata ul li
 {
     background:linear-gradient(whitesmoke,dodgerblue);
     border-radius: 6px;
@@ -184,17 +185,40 @@ footer{
     text-align: center;
 }
 
-#menu_cata button a{
+#menu_cata li a{
     text-decoration: none;
     font-family: "Times New Roman", Times, serif;
     color: black;
     transition: background 1s;
 }
-#menu_cata button a:hover{
+#menu_cata li a:hover{
     background: transparent;
     transition: background 0s;
     color: aqua;
 }
-#menu button:hover{
+#menu li:hover{
     padding: 15px;
+}
+.cata{
+    width: 100%;
+    min-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.li_du_catalogue{
+    display: inline-block;
+    margin:30px ;
+    width: 250px;
+    height: 377px;
+    text-align: center;
+    border:solid 2px darkgray;
+    border-radius: 10px;
+}
+
+.li_du_catalogue,.details{
+    list-style-type: none;
+}
+.forfait_detail a{
+    list-style-type: none;
+    text-decoration: none;
 }
