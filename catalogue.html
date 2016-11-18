@@ -4,32 +4,36 @@
     <meta charset="UTF-8">
     <title>catalogue</title>
     <link rel="stylesheet" href="style/main.css"/>
+    <link rel="stylesheet" href="style/modal_box.css"/>
 </head>
 <body>
 <div id="wrapper">
-            <div id="header">
-                <div id="logo">
-                    <img src="images/logo.jpg" alt="logo agence voyage">
-                </div>
-                <ul id="menu">
-                        <li><a href="index.html">Accueil</a></li><!--
-                    --><li><a href="catalogue.html">Catalogue</a></li><!--
-                    --><li><a href="formulaire.html">Réservation</a></li><!--
-                    --><li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+    <div id="header">
+        <div id="logo">
+            <img src="images/logo.jpg" alt="logo agence voyage">
+        </div>
+        <ul id="menu">
+            <li><a href="index.html">Accueil</a></li><!--
+                    -->
+            <li><a href="catalogue.html">Catalogue</a></li><!--
+                    -->
+            <li><a href="formulaire.html">Réservation</a></li><!--
+                    -->
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
     <div id="content">
 
-        <img src="images/hiver/slide_hiver/2.jpg" id="slider" />
+        <img src="images/hiver/slide_hiver/2.jpg" id="slider"/>
         <script type="text/javascript">
-            var images=["images/hiver/slide_hiver/1.jpg","images/hiver/slide_hiver/3.jpg","images/hiver/slide_hiver/4.jpg","images/hiver/slide_hiver/5.jpg","images/hiver/slide_hiver/6.jpg","images/hiver/slide_hiver/7.jpg"];
-            var i=0;
+            var images = ["images/hiver/slide_hiver/1.jpg", "images/hiver/slide_hiver/3.jpg", "images/hiver/slide_hiver/4.jpg", "images/hiver/slide_hiver/5.jpg", "images/hiver/slide_hiver/6.jpg", "images/hiver/slide_hiver/7.jpg"];
+            var i = 0;
             setInterval(function () {
-                document.getElementById('slider').src=images[i];
+                document.getElementById('slider').src = images[i];
                 i++;
-                if (i==6) i=0;
+                if (i == 6) i = 0;
 
-            },2000)
+            }, 2000)
         </script>
     </div>
     <div id="menu_cata">
@@ -45,54 +49,54 @@
         l'aventure commence dés maintenant accrochez vous et choisissez la destination de votre choix
     </p>
     <div class="cata">
+        <ul id="vacances_soleil"></ul>
+        <ul id="croisiere"></ul>
 
-                <ul id="vacances_soleil"></ul>
+        <ul id="vacances_hiver"></ul>
 
-                <ul id="croisiere"></ul>
+        <ul id="romantique"></ul>
 
-                <ul id="vacances_hiver"></ul>
-
-                <ul id="romantique"></ul>
-
-                <ul id="dans_la_nature"></ul>
+        <ul id="dans_la_nature"></ul>
 
 
     </div>
-    <div class="mb_container">
-        <div class="mb_background"></div>
-        <div id="reserver">
 
-            <div class="control">
 
-            </div>
+    <footer>
+        <div>
+            <p class="copyright">Copyright © 2016 Mamadou | Younes </p>
         </div>
+<!--
+        <div class="facebook">
+            <a href="https://www.facebook.com/" target="_blank"><img id="facebook" src="images/Logo-facebook-footer.png"
+                                                                     alt="facebook"></a>&lt;!&ndash;
+                 &ndash;&gt;<a href="https://twitter.com/" target="_blank"><img id="twitter"
+                                                                        src="images/twitter-ios-logo%20copy.png"
+                                                                        alt="twitter"></a>&lt;!&ndash;
+                 &ndash;&gt;<a href="https://linked.com/" target="_blank"><img id="linked" src="images/linkeed.png"
+                                                                       alt="google"></a>
 
+        </div>
+-->
+    </footer>
+</div>
+<div class="mb_container">
+    <div class="mb_background"></div>
+    <div id="reserver">
+        <h3></h3>
 
     </div>
-
-
-
-
-
-
-
-        <footer>
-                <div>
-                    <p class="copyright">Copyright © 2016  Mamadou | Younes </p>
-                </div>
-                <div class="facebook">
-                    <a href="https://www.facebook.com/" target="_blank"><img id="facebook" src="images/Logo-facebook-footer.png" alt="facebook"></a><!--
-                 --><a href="https://twitter.com/" target="_blank"><img id="twitter" src="images/twitter-ios-logo%20copy.png" alt="twitter"></a><!--
-                 --><a href="https://linked.com/" target="_blank"><img id="linked" src="images/linkeed.png" alt="google"></a>
-
-                </div>
-            </footer>
+    <div class="control">
+    </div>
 </div>
+
+
+</div>
+
 <script src="script/jquery-3.1.1.js"></script>
 <script src="script/jquery-ui.min.js"></script>
 <script src="script/catalogue.js"></script>
 <script src="script/P86_TP_forfaits.js"></script>
-<script src="script/modal_box.js"></script>
 
 </body>
 </html>

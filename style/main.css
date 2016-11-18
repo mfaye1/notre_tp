@@ -260,6 +260,15 @@ footer{
     bottom: 0;
     width: 100%;
 }
+#reserver{
+    background: white;
+    border-radius: 10px;
+    display: none;
+    margin: 100px auto;
+    position: relative;
+    width: 500px;
+    padding: 40px;
+}
 /*--------------------------------------le formulaire--------------------------------------------------*/
 
 form div {
