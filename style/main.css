@@ -269,6 +269,29 @@ footer{
     width: 500px;
     padding: 40px;
 }
+#box li{
+    list-style-type: none;
+}
+#box button a{
+    display: block;
+}
+#box button {
+    background:linear-gradient(whitesmoke,dodgerblue);
+    border-radius: 6px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    cursor: pointer;
+    height: 40px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    transition: background 1s;
+}
 /*--------------------------------------le formulaire--------------------------------------------------*/
 
 form div {
