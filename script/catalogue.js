@@ -38,12 +38,7 @@ $(function(){
                 border :'solid 2px darkgray',
                 'border-radius': '10px'
             });
-        /*$('<p>')
-            .addClass('para')
-            .appendTo(nouveau_li)
-            .html(forfait.description);
-            */
-        $('<a href="#">')
+        $('<button><a href="#"></a></button>')
             .appendTo(nouveau_li)
             .addClass('forfait_detail')
             .text('Détails')
@@ -55,15 +50,21 @@ $(function(){
                 width: '75px',
                 'text-align': 'center'
             });
-        /*$('<ul>')
-            .addClass('details')
-            .appendTo(nouveau_li)
-            .append('<li>'+forfait.prix_moy_saison+'</li>')
-            .append('<li>'+forfait.categorie+'</li>')
-            .append('<li>'+forfait.duree+'</li>')
-            .append('<li>'+forfait.debut_saison+'</li>')
-            .append('<li>'+forfait.fin_saison+'</li>')
-            */
+
     }
 });
+// crrer notre modal box
+var modal=$('#reserver');
+console.log(modal);
+//creer d'abord les titres a afficher
+var nouveau_h=$('<h3>')
+    .appendTo(modal)
+    .text('Ce Forfait est composé');
+//ajouter un p
+$('<p>')
+    .text(forfait[i]);
+var control=$('.control');
+$('<button><a href="formulaire.html"></a></button>')
+    .appendTo(control)
+    .text(Reserver)
 

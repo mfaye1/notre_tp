@@ -19,6 +19,66 @@
         </ul>
     </div>
     <div>
+        <form id="form_resa" name="form_resa">
+            <div>
+
+                <label for="prenom">Prenom:</label>
+                <input name="prenom" id="prenom" type="text"/>
+            </div>
+            <div>
+                <label for="nom">Nom:</label>
+                <input name="nom" id="nom" type="text"/>
+            </div>
+            <div>
+                <label for="email">Courriel:</label>
+                <input name="email" id="email" type="text"/>
+            </div>
+            <div>
+                <label for="courriel">courriel:</label>
+                <input name="courriel" id="courriel" type="text"/>
+            </div>
+            <div>
+                <label for="date_reservation">Date Reservation:</label>
+                <input type="text" name="date_reservation" id="date_reservation"/>
+            </div>
+            <div>
+                <label for="sexe_h">Homme:</label>
+                <input type="radio" name="sexe" id="sexe_h" value="sexe_h"/>
+                <br/>
+                <label for="sexe_f">Femme:</label>
+                <input type="radio" name="sexe" id="sexe_f" value="sexe_f"/>
+            </div>
+            <div>
+                <label for="Destination">Destination:</label>
+                <select name="Destination" id="Destination">
+                    <option value="-1">Choisir...</option>
+                    <option value="mo">Montréal</option>
+                    <option value="qc">Québec</option>
+                    <option value="ga">Gâtineau</option>
+                    <option value="sh">Sherbrooke</option>
+                </select>
+
+            </div>
+            <div>
+                <label for="depart">Depart:</label>
+                <input name="depart" id="depart" type="text"/>
+            </div>
+            <div>
+                <label for="arrivee">Arrivee:</label>
+                <input name="arrivee" id="arrivee" type="text"/>
+            </div>
+            <div>
+                <label for="commentaire">Commentaire:</label>
+                <textarea rows="10" cols="50" name="commentaire" id="commentaire">Valeur par défaut dans le content de l'élément textarea</textarea>
+            </div>
+            <div>
+                <label for="accepte">J'accepte les conditions:</label>
+                <input type="checkbox" name="accepte" id="accepte" value="accepte"/>
+            </div>
+            <div>
+                <input type="submit" value="Réserver" />
+            </div>
+        </form>
 
 
 

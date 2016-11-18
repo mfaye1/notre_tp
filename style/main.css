@@ -197,7 +197,7 @@ footer{
     color: aqua;
 }
 #menu li:hover{
-    padding: 15px;
+    padding: 7px;
 }
 .cata{
     width: 100%;
@@ -219,6 +219,80 @@ footer{
     list-style-type: none;
 }
 .forfait_detail a{
-    list-style-type: none;
+    display: block;
+    color: deepskyblue;
     text-decoration: none;
+    list-style-type: none;
+
+}
+.forfait_detail{
+    margin-top: 20px;
+    width: 100px;;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    text-align: center;
+    background: gray;
+    cursor: pointer;
+}
+
+/*---------------------------------------le modal box----------------------------------------------------*/
+
+.mb_container {
+    display:none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 100;
+}
+
+.mb_container > .mb_background {
+    display: block;
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+/*--------------------------------------le formulaire--------------------------------------------------*/
+
+form div {
+    margin: 0 0 15px 160px;
+}
+
+
+form div label {
+    width: 140px;
+    float: left;
+    text-align: right;
+    margin: 5px 20px 0 -160px;
+}
+
+#form_resa{
+    margin-top: 10%;
+}
+
+#form_resa .error {
+    border : 2px solid red;
+    background-color: #ffc7c5;
+}
+
+/* Signaler erreur les checkbox  */
+#form_resa .cberror {
+    outline-color : red;
+    outline-style : solid;
+    outline-width : thin;
+}
+
+/* Signaler erreur les checkbox  */
+#form_resa .error_msg {
+    display : inline-block;
+    margin:0;
+    color:red;
 }

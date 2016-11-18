@@ -233,5 +233,43 @@ var P86_TP_forfaits = [
         prix_animal: 0,
         photo: "dans la nature/2.jpg",
         photo_cat: "images/categorie/aventure_01.jpg"
+    },
+    {
+        nom: "Rio de Janeiro",
+        categorie: "croisiere",
+        description: "Le produit 1 bla bla bla...",
+        duree: 14,
+        debut_saison: "2016-09-01",
+        fin_saison: "2017-05-31",
+        mois_basse_saison: "septembre et mai",
+        prix_basse_saison: 5122,
+        mois_moy_saison: "octobre et avril",
+        prix_moy_saison: 6543,
+        mois_haute_saison: "décembre, janvier, février,mars",
+        prix_haute_saison: 9280,
+        places_dispo: 98,
+        nbr_max_animaux_admis: 2,
+        prix_animal: 99,
+        photo: "croisiere/3.jpg",
+        photo_cat: "images/categorie/nature.jpg"
+    },
+    {
+        nom: "Milan",
+        categorie: "vacances_hiver",
+        description: "Le produit 1 bla bla bla...",
+        duree: 1,
+        debut_saison: "2017-01-01",
+        fin_saison: "2017-03-31",
+        mois_basse_saison: "janvier",
+        prix_basse_saison: 355,
+        mois_moy_saison: "mars",
+        prix_moy_saison: 389,
+        mois_haute_saison: "février",
+        prix_haute_saison: 445,
+        places_dispo: 268,
+        nbr_max_animaux_admis: 0,
+        prix_animal: 0,
+        photo: "hiver/5.jpg",
+        photo_cat: "images/categorie/lac_louise.jpg"
     }
 ];
