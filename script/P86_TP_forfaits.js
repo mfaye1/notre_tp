@@ -60,7 +60,7 @@ var P86_TP_forfaits = [
         places_dispo: 56,
         nbr_max_animaux_admis: 0,
         prix_animal: 0,
-        photo: "croisiere/1.jpg",
+        photo: "croisiere/2.jpg",
         photo_cat: "images/categorie/croisiere_02.jpg"
     },
     {
