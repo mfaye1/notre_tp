@@ -157,14 +157,16 @@ footer{
 }
 
 .intro{
-    width: 80%;
-    min-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
 
+color: darksalmon;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#slider{
+
+}
 /*------------------------------------------------------- la page catalogue------------------------------------------------------------*/
 
 #menu_cata{
@@ -270,28 +272,18 @@ footer{
     width: 500px;
     padding: 40px;
 }
-#box li{
-    list-style-type: none;
-}
-#box button a{
-    display: block;
-}
-#box button {
+#box button{
     background:linear-gradient(whitesmoke,dodgerblue);
     border-radius: 6px;
-    margin-top: 15%;
-    margin-bottom: 5%;
-    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 2%;
     cursor: pointer;
     height: 40px;
     display: inline-block;
     width: 150px;
     text-align: center;
+    margin-left: 10%;
 
-    text-decoration: none;
-    font-family: "Times New Roman", Times, serif;
-    color: black;
-    transition: background 1s;
 }
 /*--------------------------------------le formulaire--------------------------------------------------*/
 
@@ -328,6 +320,9 @@ form div label {
     display : inline-block;
     margin:0;
     color:red;
+}
+#box button{
+
 }
 /*---------------------------------------la page contact----------------------------------------------------*/
 .ville{
